@@ -37,6 +37,7 @@ function Filter(inputTree, options) {
       this.outputEncoding = options.outputEncoding;
   }
 
+  this._debug = debugGenerator(this.description);
   this._cache = new Cache();
   this._canProcessCache = Object.create(null);
   this._destFilePathCache = Object.create(null);

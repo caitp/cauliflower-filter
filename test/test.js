@@ -7,6 +7,8 @@ var broccoliTestHelpers = require('broccoli-test-helpers');
 var makeTestHelper = broccoliTestHelpers.makeTestHelper;
 var cleanupBuilders = broccoliTestHelpers.cleanupBuilders;
 
+require('broccoli-plugin').initialize();
+
 var inherits = require('util').inherits;
 var _mockfs = require('mock-fs');
 var fs = require('fs');

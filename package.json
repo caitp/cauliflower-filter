@@ -46,7 +46,7 @@
     "broccoli-test-helpers": "^0.0.8",
     "chai": "^3.0.0",
     "istanbul": "^0.3.17",
-    "minimatch": "^2.0.8",
+    "minimatch": "^3.0.4",
     "mocha": "^2.2.5",
     "mock-fs": "^3.0.0",
     "sinon": "^1.15.3"
